@@ -1,0 +1,175 @@
+ body {
+        font-family: sans-serif;
+        background-color: black;
+        margin: 0;
+        padding: 15px;
+        color: #fff;
+    }
+
+    .mr5 {
+        margin-right: 5px;
+    }
+
+    .logic {
+        position: fixed;
+        width: 535px;
+        border-right: 5px solid #ececec;
+        top: 40px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .logic div {
+        letter-spacing: 1;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    h1 {
+        position: relative;
+    }
+
+    h1::after,
+    .angle::after {
+        content: '◦';
+        position: absolute;
+        top: -5px;
+        margin: -11px -4px;
+        font-size: 25px;
+    }
+
+    .ff-auto {
+        position: relative;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .time-input-content {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .pushed {
+        background-color: rgb(100, 200, 100);
+        font-weight: 900;
+    }
+
+    .submit {
+        cursor: pointer;
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 4px;
+        background: #5c5c5c;
+        color: #ddd;
+    }
+
+    input {
+        width: 30px;
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    .hour-inp-content,
+    .minute-inp-content {
+        margin: 5px;
+        position: relative;
+    }
+
+    .dial {
+        position: relative;
+        margin: 0 auto;
+        width: 350px;
+        height: 350px;
+        background: #ececec;
+        border: 12px solid #5c5c5c;
+        border-radius: 50%;
+    }
+
+    span {
+        display: inline-block;
+    }
+
+    .min-hand {
+        position: absolute;
+        top: 51px;
+        left: 50%;
+        margin-left: -8px;
+        width: 16px;
+        height: 144px;
+        background: url('https://themegion.github.com/AnalogClock/min.svg') 50% 50% no-repeat;
+        z-index: 7;
+        transform-origin: 50% 124px;
+    }
+
+    .hour-hand {
+        position: absolute;
+        top: 85px;
+        left: 50%;
+        margin-left: -7px;
+        width: 14px;
+        height: 110px;
+        background: url('https://themegion.github.com/AnalogClock/hour.svg') 50% 50% no-repeat;
+        z-index: 5;
+        transform-origin: 50% 90px;
+    }
+
+    .twelve,
+    .three,
+    .six,
+    .nine {
+        position: absolute;
+        font-family: Lato, sans-serif;
+        font-size: 32px;
+        color: #777;
+    }
+
+    .twelve {
+        top: 35px;
+        left: 155px;
+    }
+
+    .three {
+        top: 156px;
+        right: 39px;
+    }
+
+    .six {
+        left: 165px;
+        bottom: 35px;
+    }
+
+    .nine {
+        top: 156px;
+        left: 39px;
+    }
+
+    .diallines {
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        margin-left: -1px;
+        width: 2px;
+        height: 10px;
+        background: #b3b3b0;
+        z-index: 1;
+        transform-origin: 50% 160px;
+    }
+
+    .diallines:nth-of-type(5n) {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        margin-left: -2px;
+        width: 4px;
+        height: 25px;
+        background: #b3b3b0;
+        z-index: 1;
+        transform-origin: 50% 165px;
+    }
