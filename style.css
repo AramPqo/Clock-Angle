@@ -100,10 +100,10 @@
         position: absolute;
         top: 51px;
         left: 50%;
-        margin-left: -8px;
-        width: 16px;
+        margin-left: -3px;
+        width: 7px;
         height: 144px;
-        background: url('https://themegion.github.com/AnalogClock/min.svg') 50% 50% no-repeat;
+        background: #5c5c5c;
         z-index: 7;
         transform-origin: 50% 124px;
     }
@@ -112,10 +112,10 @@
         position: absolute;
         top: 85px;
         left: 50%;
-        margin-left: -7px;
-        width: 14px;
+        margin-left: -3px;
+        width: 7px;
         height: 110px;
-        background: url('https://themegion.github.com/AnalogClock/hour.svg') 50% 50% no-repeat;
+        background:#5c5c5c;
         z-index: 5;
         transform-origin: 50% 90px;
     }
